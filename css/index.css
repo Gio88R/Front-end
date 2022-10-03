@@ -1,0 +1,5 @@
+body {margin: 20px;}
+header {text-align: center;}
+.container {background: purple;}
+.box   {float: left;width: 32%;height: auto;}
+row {width: 100%;margin-left: 20px;overflow: hidden;}
