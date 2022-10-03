@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./CSS/index.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Länkar</h1>
+    <p>Här har vi en länk <a href="https://www.google.se">till google </a><br>
+    Här en länk med attribut new <a href="https://www.youtube.com" target="_new"> till youtube</a></p>
+    <p>Här en länk med attribut blank <a href="https://aftonbladet.se" target="_blank">till aftonbladet </a></p>
+    <input type="number">
+    <table cellspacing="1" bgcolor="#000000">
+        <tr bgcolor="#ffffff">
+        
+          <td> <b>Namn</b></td>
+          <td><b>Storlek</b></td>
+          <td><b>Färg</b></td>
+        </tr>
+        <tr bgcolor="#ffffff">
+          <td>Sebastian</td>
+          <td>165</td>
+          <td>Lila</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+          <td>Hanna</td>
+          <td>165</td>
+          <td>Röd</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>Alvar</td>
+            <td>125</td>
+            <td>Blå</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>Astrid</td>
+            <td>117</td>
+            <td>Rosa</td>
+        </tr>
+      </table>
+      <ul>
+        <li>Lila</li>
+        <li>Röd</li>
+        <li>Blå</li>
+        <li>Rosa</li>
+      </ul>
+      <ol>
+        <li>Lila</li>
+        <li>Röd</li>
+        <li>Blå</li>
+        <li>Rosa</li>
+      </ol>
+      <form>
+        <label for="fname">Förnamn</label>
+        <input 
+        type="text" 
+        id="fname" 
+        placeholder="Ditt namn"
+        name="firstname"
+        required/>
+        <br>
+        <label for="purple">Lila</label>
+        <input type="radio" id="purple" name="colors" value="purple"/>
+        <label for="green">Grönt</label>
+        <input type="radio" id="green" name="colors" value="green"/>
+        <label for="yellow">Gult</label>
+        <input type="radio" id="yellow" name="colors" value="gult"/><br>
+        <label for="Age">Ålder</label>
+        <input type="number" id="age" name="Age" value="Age" min="18" max="99" required/><br>
+        <label for="mailadress">Email</label>
+        <input type="email" name="email" id="mailadress" required><br>
+        <label for="rullgardin">Gör ett val</label>
+        <select name="mat" id="rullgardin">
+          <option value="majs">Majs</option>
+          <option value="popcorn">popcorn</option>
+        </select>
+        <br>
+        <button>Spara</button>
+    </form>
+
+</body>
+</html>

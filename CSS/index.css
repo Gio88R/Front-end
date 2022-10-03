@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid purple; */
+    background-color: purple;
+}
+.content {
+    width: 900px;
+    height: 400px;
+    /* border: 1px solid purple; */
+    background-color: orange;
+}

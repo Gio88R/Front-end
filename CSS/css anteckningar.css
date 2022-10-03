@@ -1,0 +1,42 @@
+[class^="col-"] {
+} Klassnamn som börjar med col
+[class$="-grid"] {
+}
+[class*=”-lg-”] {
+} innehåller
+#main {
+    background-color: red;
+}
+.container {
+    background-color: green;
+} Grönt blir ignorerat pga main ovanför.
+
+article {
+    position: relative;
+    left: 20px;
+}
+article {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+article {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed red;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
